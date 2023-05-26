@@ -12,7 +12,7 @@ else:
     m = n+1
     while True:
         if isprime(m):
-           
+            
             break
         else:
             m+=1
