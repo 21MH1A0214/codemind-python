@@ -1,7 +1,7 @@
 n = int(input())
 l = list(map(int,input().split()))
-s = 0
+c = 0
 for i in l:
-    s = s+i
-    avg = s/n
-print("{:.2f}".format(avg))
+    c+=i
+a = c/n
+print('{:.2f}'.format(a))
