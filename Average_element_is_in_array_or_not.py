@@ -1,10 +1,10 @@
 n = int(input())
 l = list(map(int,input().split()))
-s = 0
+c = 0
 for i in l:
-    s = s+i
-    avg = s//n
-if avg in l:
+    c+=i
+a = c//n
+if a in l:
     print(True)
 else:
     print(False)
