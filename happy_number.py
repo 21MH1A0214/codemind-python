@@ -1,13 +1,13 @@
-def sqrSum(n):
-    tot = 0
+def sq(n):
+    t = 0
     while n>0:
-        tot+=pow(n%10,2)
+        t+=pow(n%10,2)
         n//=10
-    return tot
+    return t
 num = int(input())
 temp = num
-while temp!=1 and temp!=4:
-    temp = sqrSum(temp)
+while temp!=1and temp!=4:
+    temp = sq(temp)
 if temp==1:
     print(True)
 else:
