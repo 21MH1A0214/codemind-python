@@ -5,6 +5,7 @@ def is_prime(s):
         if s%i==0:
             return False
     return True
+
 x = int(input())
 s=0
 a=x
