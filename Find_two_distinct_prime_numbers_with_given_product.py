@@ -13,4 +13,4 @@ for i in range(1,x):
             print(i,end=" ")
             c+=1
 if c==0:
-    print(-1)
+    print('-1')
