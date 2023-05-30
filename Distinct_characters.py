@@ -1,8 +1,8 @@
-n=input().lower()
-temp=[]
-for i in n:
-    if n.count(i)==1 and  i!=" ":
-        temp.append(i)
-        temp.sort()
-for i in temp:
-    print(i,end='')
+s=input()
+s=s.lower()
+k=list(set(s))
+k.sort()
+for i in k:
+    if i==" ":
+        del k[k.index(i)]
+print("".join(k))
