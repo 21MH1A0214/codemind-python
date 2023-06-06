@@ -1,8 +1,7 @@
 n = int(input())
-m,s=1,0
-x = str(n)
-for i in x:
-    p = int(i)
-    m*=p
-    s+=p
-print(m-s)
+m,sp = 1,0
+s = str(n)
+for i in s:
+    m = m*int(i)
+    sp = sp+int(i)
+print(abs(m-sp))
