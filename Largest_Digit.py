@@ -1,6 +1,6 @@
 n = int(input())
-l = []
 s = str(n)
+l = []
 for i in s:
     l.append(i)
 m = max(l)
