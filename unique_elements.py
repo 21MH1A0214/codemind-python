@@ -1,10 +1,10 @@
-n=int(input())
-ls=list(map(int,input().split()))
+n = int(input())
+l = list(map(int,input().split()))
 for i in range(0,n):
     for j in range(0,n):
         if i!=j:
-            if ls[i]==ls[j]:
-                ls[j]=-1
-for j in ls:
+            if l[i]==l[j]:
+                l[j]= -1
+for j in l:
     if j>-1:
-        print(j,end=' ')
+        print(j,end = ' ')
