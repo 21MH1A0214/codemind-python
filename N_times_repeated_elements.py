@@ -1,7 +1,7 @@
-n=int(input())
-a=list(map(int,input().split()))
-c=int(input())
-b=[]
+n = int(input())
+a = list(map(int,input().split()))
+c = int(input())
+b = []
 for i in a:
     if i not in b and a.count(i)==c:
         b.append(i)
