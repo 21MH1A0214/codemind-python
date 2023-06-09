@@ -1,13 +1,13 @@
-n=int(input())
-a=list(map(int,input().split()))
-b=[]
-c=0
+n = int(input())
+a = list(map(int,input().split()))
+b = []
+c = 0
 for i in a:
-    if i not in b:
+    if i not in b and a.count(i)==i:
         b.append(i)
 for i in b:
     if a.count(i)==i:
         print(i,end=' ')
-        c=1
+        c = 1
 if c==0:
-    print('-1')
+    print(-1)
