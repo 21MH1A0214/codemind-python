@@ -1,3 +1,3 @@
-l = list(map(str,input().split()))
-x = l[::-1]
-print(*x)
+s = str(input())
+k = s[::-1]
+print(k)
